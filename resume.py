@@ -195,10 +195,10 @@ st.image(image, width=700)
 txt4('Tableau', 'Students mental health Dashboard', 'https://public.tableau.com/app/profile/angela161/viz/Students_mental_health/Dashboard1')
 image = Image.open('09.png')
 st.image(image, width=700)
-txt4('Power BI', 'Cyclistic company Analysis', 'http://codes.bio/meta-iavp/')
+txt4('Power BI', 'Cyclistic company Analysis', 'https://app.powerbi.com/groups/me/reports/0015e8ad-7008-4f88-a7d4-e0c77efca611/ReportSection?experience=power-bi')
 image = Image.open('10.jpg')
 st.image(image, width=700)
-txt4('Power BI', 'Plane crashes through history', 'http://codes.bio/osfp/')
+txt4('Power BI', 'Plane crashes through history', 'https://app.powerbi.com/groups/me/reports/9f713b16-cf0c-4425-ad58-8f92fc086973?pbi_source=desktop')
 image = Image.open('11.jpg')
 st.image(image, width=700)
 
@@ -207,7 +207,7 @@ st.image(image, width=700)
 st.markdown('''
 ## Skills
 ''')
-txt3('Data processing', ' `Excel`, `Google Sheets`, `SQL`, `R`, `Python` ')
+txt3('Data processing', ' `Excel`, `Google Sheets`, `SQL`, `R`, `Python`, `Git` ')
 txt3('Data visualization', '`Tableau`, `Power BI`')
 txt3('Python libraries', '`matplotlib`, `seaborn`, `plotly`, `altair`, `ggplot2`, `pandas`, `numpy`')
 

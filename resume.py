@@ -54,7 +54,7 @@ st.markdown("""
       </li>
       <li class="nav-item">
             <a class="nav-link" href="#download-cv" onclick="download_cv()">Download CV</a>
-          </li>      
+      </li>
     </ul>
   </div>
 </nav>
@@ -233,6 +233,50 @@ def main():
     st.markdown("""
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
       <a class="navbar-brand" href="" target="_blank">Angela Escobar</a>
+    </nav>
+    """, unsafe_allow_html=True)
+
+    st.markdown('## Download CV')
+
+    # Button
+    if st.button('Download CV'):
+        with open('Resume_Angela_Escobar.pdf', 'rb') as file:
+            contents = file.read()
+        st.download_button(label='Click here to download',
+                            data=contents,
+                            file_name='Resume_Angela_Escobar.pdf',
+                            mime='application/pdf')
+
+## Download CV
+
+
+      
+def main():
+    st.markdown("""
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
+      <a class="navbar-brand" href="" target="_blank">Angela Escobar</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download-cv" onclick="download_cv()">Download CV</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     """, unsafe_allow_html=True)
 

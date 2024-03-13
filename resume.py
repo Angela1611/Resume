@@ -52,6 +52,9 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
       </li>
+      <li class="nav-item">
+            <a class="nav-link" href="#download-cv" onclick="download_cv()">Download CV</a>
+          </li>      
     </ul>
   </div>
 </nav>
@@ -221,3 +224,28 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/angela-escobar161/')
 txt2('GitHub', 'https://github.com/Angela1611')
 txt2('Email', 'natescobar2@gmail.com')
+
+## Download CV
+
+
+      
+def main():
+    st.markdown("""
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
+      <a class="navbar-brand" href="" target="_blank">Angela Escobar</a>
+    </nav>
+    """, unsafe_allow_html=True)
+
+    st.markdown('## Download CV')
+
+    # Button
+    if st.button('Download CV'):
+        with open('Resume_Angela_Escobar.pdf', 'rb') as file:
+            contents = file.read()
+        st.download_button(label='Click here to download',
+                            data=contents,
+                            file_name='Resume_Angela_Escobar.pdf',
+                            mime='application/pdf')
+
+if __name__ == '__main__':
+    main()

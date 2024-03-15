@@ -22,9 +22,12 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Committed entry-level data analyst proficient in Python, SQL, R, Excel, Tableau, & Power BI . Experienced in ETL and visualization through dashboards and tables.
-- 3 years of experience as an Office Assistant with extensive file management skills, inventory, client, and supplier database management. Proficient in document and report generation, invoice processing, financial documentation and analysis, with a keen attention to detail, analytical skills, and customer service experience.
-- Strong verbal and written communication skills and time management
+- 1 year of experience as an Assistant Data Analyst, and 3 years of experience as an Office Assistant with extensive experience at managing, cleaning, manipulating, and transforming large datasets, with a keen attention to detail, and analytical skills.
+- Proficient in document and report generation, invoice processing, financial documentation and analysis, and presenting data findings for technical and non-technical audiences. 
+- Strong verbal and written communication skills for customer service.
+- Experience of organization and time management.
 - Strong proficiency in soft skills such as effective communication, collaboration, adaptability, professional ethics, intellectual curiosity, decision-making, and empathy.
+- Fast learner and new challenges lover.
 ''')
 
 #####################
@@ -133,40 +136,45 @@ st.markdown('''
 ''')
 
 txt('**Office Assistant**, Servicios Gráficos Impacop | Bogotá, Colombia',
-'(2018-2021)')
+'(Ago/18-May/21)')
 st.markdown('''
-- Organization and management of files, invoices, inventories, and databases using Excel and Microsoft Office.
+       
+- File and database management to optimize inventory, sales, and company information processes using Excel and R.
 - Production and presentation of reports on performance and other business-related analyses, as well as documents necessary for tax procedures, billing, and quotations.
 - Customer service, communication with clients, and suppliers.
 - Handling financial reports for the accounting and payroll departments.
-- Scheduling coordination to align time management with deliveries, pending orders, and business events.
+- Scheduling coordination to align time management with deliveries, pending orders, and business events
 ''')
 
 txt('**Au Pair** Cultural Care | San Francisco, California',
-'(2021-2022)')
+'(May/21-May/22)')
 st.markdown('''
 - Childcare, Cultural Exchange
 - Improved English proficiency through daily interactions with native speakers over the course of a whole year.
 
 ''')
 
-txt('**Office Support Assistant**  Westcana Electric Inc | Calgary, Canadá',
-'(2023)')
+txt('**Office Assistant**  Westcana Electric Inc | Calgary, AB, Canada',
+'(May/22-Sep/22)')
 st.markdown('''
 - Data entry into respective databases according to each sector of the company.
-- Perform filing and record-keeping tasks.
+- Perform filing, organization, management, security of records and files
 - Assist in the preparation of reports and documents in Excel and Google Suites.
 - Update and maintain contact, clients, and suppliers databases.
+- Assistance in preparing reports and documents in Excel, Microsoft Office and Google Suites.
 - Provide support to the project management department, including coordinating meetings and preparing documentation.
 ''')
 
-txt('**Office Assistant**, Servicios Gráficos Impacop | Bogotá, Colombia',
-'(2023-Present)')
+txt('**Assistant Data Analyst**, Servicios Gráficos Impacop | Bogotá, Colombia',
+'(Jan/23-Present)')
 st.markdown('''
-- Communication with international clients
-- File and database management to optimize inventory, sales, and company information processes using SQL and R
-- Scheduling coordination to align time management with deliveries, pending orders, and business events.
-- Implementation of data visualization tools for process optimization within the company using Power BI.
+- Use of Google Suite, Markdown files, and Google Apps Script for document creation and reporting.
+- Assist in data cleaning, transformation, and modeling to ensure data accuracy and consistency, using Python, SQL and Excel (macros, imports, query functions).
+- Create interactive dashboards and reports using Power BI to visualize key indicators and trends.
+- Continuously monitor data for accuracy and completeness.
+- Collaborate with cross-functional teams to provide data-driven insights.
+- Present findings and insights to stakeholders in a clear and compelling manner, for technical and non-technical audiences.
+- Version control using Git, and SVN.
 ''')
 
 

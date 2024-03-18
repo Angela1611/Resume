@@ -139,7 +139,7 @@ txt('**Office Assistant**, Servicios Gráficos Impacop | Bogotá, Colombia',
 '(Ago/18-May/21)')
 st.markdown('''
        
-- File and database management to optimize inventory, sales, and company information processes using Excel and R.
+- File and database management to optimize inventory, sales, and company information processes using Excel, VBA, Mosaic, and R.
 - Production and presentation of reports on performance and other business-related analyses, as well as documents necessary for tax procedures, billing, and quotations.
 - Customer service, communication with clients, and suppliers.
 - Handling financial reports for the accounting and payroll departments.
@@ -171,6 +171,7 @@ st.markdown('''
 - Use of Google Suite, Markdown files, and Google Apps Script for document creation and reporting.
 - Assist in data cleaning, transformation, and modeling to ensure data accuracy and consistency, using Python, SQL and Excel (macros, imports, query functions).
 - Create interactive dashboards and reports using Power BI to visualize key indicators and trends.
+- Execution of web scraping for automated data extraction.
 - Continuously monitor data for accuracy and completeness.
 - Collaborate with cross-functional teams to provide data-driven insights.
 - Present findings and insights to stakeholders in a clear and compelling manner, for technical and non-technical audiences.

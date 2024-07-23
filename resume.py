@@ -21,7 +21,7 @@ st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
-- Committed entry-level data analyst proficient in Python, SQL, R, Excel, Tableau, & Power BI . Experienced in ETL and visualization through dashboards and tables.
+- Committed data analyst proficient in Python, SQL, R, Excel, Tableau, & Power BI . Experienced in ETL and visualization through dashboards and tables.
 - 1 year of experience as an Assistant Data Analyst, and 3 years of experience as an Office Assistant with extensive experience at managing, cleaning, manipulating, and transforming large datasets, with a keen attention to detail, and analytical skills.
 - Proficient in document and report generation, invoice processing, financial documentation and analysis, and presenting data findings for technical and non-technical audiences. 
 - Strong verbal and written communication skills for customer service.
